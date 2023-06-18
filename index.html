@@ -1,32 +1,353 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-	<meta charset="UTF-8">
-	<title>FIGMA | Макеты для верстки — Верстка страницы</title>
-	<meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки">
-    <link rel="stylesheet" href="css/base.css">
+  <meta charset="UTF-8" />
+  <title>FIGMA | Макеты для верстки — Верстка страницы</title>
+  <meta name="description" content="Макет для верстки сайта был взял с телеграм канала FIGMA | Макеты для верстки" />
+  <link rel="stylesheet" href="css/base.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <script src="https://cdn.tailwindcss.com"></script>
 </head>
+
 <body>
+  <!-- Начало: Данный блок удалять нельзя -->
+  <div class="maketforfigma">
+    <a href="https://t.me/s/FigmaToHTML" target="_blank">
+      <img src="img/logo.png" />
+    </a>
+    <div>
+      <p>
+        Данная верстка, была реализована пользователем в рамках обучающего
+        телеграм канал
+        <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
+      </p>
+      <p>
+        При помощи
+        <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a>
+        пользователь получил оплату за верстку этого макета.
+      </p>
+    </div>
+  </div>
+  <!-- Конец -->
 
-    <!-- Начало: Данный блок удалять нельзя -->
-    <div class="maketforfigma">
-        <a href="https://t.me/s/FigmaToHTML" target="_blank">
-            <img src="img/logo.png">
-        </a>
-        <div>
-            <p>
-                Данная верстка, была реализована пользователем в рамках обучающего телеграм канал <a href="https://t.me/s/FigmaToHTML" target="_blank">FIGMA | Макеты для верстки</a>
-            </p>
-            <p>
-                При помощи <a href="https://t.me/HtmlCodeForMoney_bot?from_git" target="_blank">Telegram-бота</a> пользователь получил оплату за верстку этого макета.
-            </p>
+  <div class="flex flex-col items-center pt-2 text-[#242424]">
+    <header class="container flex flex-row justify-between items-center">
+      <div class="mr-5">
+        <img src="img/hello-fresh/Hello_Fresh_Lockup.png.svg" alt="icon" />
+      </div>
+      <div class="flex flex-row justify-start items-center gap-1 font-semibold mr-auto">
+        <div class="px-3">
+          <span>Our Plans</span>
         </div>
+        <div class="px-3">
+          <span>How It Works</span>
+        </div>
+        <div
+          class="px-3 flex flex-row after:bg-[url(img/hello-fresh/arrow-down.svg)] after:w-6 after:h-6 after:bg-center after:bg-no-repeat after:shrink-0">
+          <span>Our Menus</span>
+        </div>
+        <div class="px-3">
+          <span>Gift Cards</span>
+        </div>
+        <div
+          class="px-3 flex flex-row after:bg-[url(img/hello-fresh/arrow-down.svg)] after:w-6 after:h-6 after:bg-center after:bg-no-repeat after:shrink-0">
+          <span>Sustainability</span>
+        </div>
+        <div class="px-3">
+          <span>Thanksgiving Box</span>
+        </div>
+      </div>
+      <button class="flex justify-center items-center border border-[#067A46] rounded-md px-7 py-2 font-semibold">
+        <span class="text-[#067A46]">Log in</span>
+      </button>
+    </header>
+    <div
+      class="flex flex-col justify-between items-center bg-[url(img/hello-fresh/hello-fresh-bg.png)] bg-cover w-full">
+      <div class="flex flex-col items-center justify-between mt-44 mb-12">
+        <div class="flex flex-col items-center justify-between gap-8">
+          <h1 class="flex flex-col justify-between items-center text-4xl text-black leading-loose">Take the stress
+            <span>out of mealtime</span>
+          </h1>
+          <h3 class="text-xl text-black">America's Most Popular Meal Kit</h3>
+          <button class="flex justify-center items-center bg-[#067A46] text-white px-6 py-3 rounded-md mb-20 ">
+            <span>View our plans</span>
+          </button>
+        </div>
+        <button class="flex justify-center items-center bg-white border border-[#067A46] rounded-full w-12 h-12">
+          <img src="img/hello-fresh/arrow-bg.svg" alt="icon" />
+        </button>
+      </div>
     </div>
-    <!-- Конец -->
-
-    <div class="main">
-        В данном блоке размещается верстка
+    <div class="container flex flex-col justify-center gap-7 items-center mt-12 mb-5">
+      <h3 class="text-3xl">Why HelloFresh?</h3>
+      <div class="flex flex-row justify-between items-center gap-7">
+        <div class="flex flex-col justify-center items-center px-8 pt-7">
+          <img src="img/hello-fresh/why-hellofresh-icn1.svg" alt="icon">
+          <span class="font-semibold">No skimpin’ on the chicken!</span>
+          <span class="max-w-[195px] text-center">Or steak, or fish, or plant protein.</span>
+        </div>
+        <div class="flex flex-col justify-center items-center px-8 pt-7">
+          <img src="img/hello-fresh/why-hellofresh-icn2.svg" alt="icon">
+          <span class="font-semibold">No commitment whatsoever</span>
+          <span class="max-w-[195px] text-center">Skipping weeks or cancelling is super easy.</span>
+        </div>
+        <div class="flex flex-col justify-center items-center px-8 pt-7">
+          <img src="img/hello-fresh/why-hellofresh-icn3.svg" alt="icon">
+          <span class="font-semibold">The most 5-star reviews</span>
+          <span class="max-w-[195px] text-center">Our huge recipe selection wows week after week.</span>
+        </div>
+        <div class="flex flex-col justify-center items-center px-8 pt-7">
+          <img src="img/hello-fresh/why-hellofresh-icn4.svg" alt="icon">
+          <span class="font-semibold">Fresh and affordable</span>
+          <span class="max-w-[195px] text-center">Chef-created deliciousness from $7.49 per meal.</span>
+        </div>
+      </div>
+      <button class="flex justify-center items-center border border-[#067A46] rounded-md px-7 py-2 font-semibold">
+        <span class="text-[#067A46]">Get started</span>
+      </button>
     </div>
-
+    <div class="container flex flex-row justify-center items-center mt-12 mb-10 gap-28 px-4 py-5">
+      <div>
+        <img src="img/hello-fresh/HF-box.png" alt="Hello fresh Box">
+      </div>
+      <div class="flex flex-col items-center justify-between max-w-md w-full">
+        <h4 class="text-2xl ">What’s inside each box?</h4>
+        <ul class="flex flex-col justify-start items-start max-w-sm self-start">
+          <li>✓ Easy-to-follow recipes with clear nutritional info
+          </li>
+          <li>✓ High-quality ingredients sourced straight from the farm
+          </li>
+          <li>✓ Convenient meal kits that fit perfectly in the fridge
+          </li>
+          <li>✓ A fun cooking experience that makes you feel unstoppable</li>
+          <li class="mt-3">✓ <a href="#" class="text-[#067A46]">Innovative packaging designed to reduce waste</a>
+          </li>
+        </ul>
+        <button class="flex justify-center items-center bg-[#067A46] text-white px-6 py-3 rounded-md mt-8 w-full">
+          <span>View our plans</span>
+        </button>
+      </div>
+    </div>
+    <div class="container flex flex-col justify-center items-center mb-10 gap-2 px-4 py-5">
+      <h3 class="text-3xl">Over 30+ fresh recipes every week</h3>
+      <span>Easy meals designed by professional chefs and nutritionists</span>
+      <div class="swiper HF_Swiper max-w-5xl mb-8">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="img/hello-fresh/slide1.png" alt="slide1" class="object-cover">
+            <div class="flex flex-col absolute bottom-2 ml-2">
+              <span class="text-white text-xl">MEAT & VEGGIES</span>
+              <span class="uppercase bg-[#FFCF70] text-xs px-2 py-0.5">OUR MOST POPULAR PLAN</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/hello-fresh/slide2.png" alt="slide2" class="">
+            <div class="flex flex-col absolute bottom-2 ml-2">
+              <span class="text-white text-xl">MEAT & VEGGIES</span>
+              <span class="uppercase bg-[#FFCF70] text-xs px-2 py-0.5">OUR MOST POPULAR PLAN</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/hello-fresh/slide3.png" alt="slide3" class="">
+            <div class="flex flex-col absolute bottom-2 ml-2">
+              <span class="text-white text-xl">MEAT & VEGGIES</span>
+              <span class="uppercase bg-[#FFCF70] text-xs px-2 py-0.5">OUR MOST POPULAR PLAN</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/hello-fresh/slide4.png" alt="slide4" class="">
+            <div class="flex flex-col absolute bottom-2 ml-2">
+              <span class="text-white text-xl">MEAT & VEGGIES</span>
+              <span class="uppercase bg-[#FFCF70] text-xs px-2 py-0.5">OUR MOST POPULAR PLAN</span>
+            </div>
+          </div>
+          <div class="swiper-slide">
+            <img src="img/hello-fresh/slide4.png" alt="slide4" class="">
+            <div class="flex flex-col absolute bottom-2 ml-2">
+              <span class="text-white text-xl">MEAT & VEGGIES</span>
+              <span class="uppercase bg-[#FFCF70] text-xs px-2 py-0.5">OUR MOST POPULAR PLAN</span>
+            </div>
+          </div>
+        </div>
+        <div
+          class="swiper-button-next after:content-none flex justify-center items-center w-10 h-10 border border-[#067A46] rounded-full">
+          <img src="img/hello-fresh/arrow-right.svg" alt="icon">
+        </div>
+        <div
+          class="swiper-button-prev after:content-none flex justify-center items-center w-10 h-10 border border-[#067A46] rounded-full">
+          <img src="img/hello-fresh/arrow-left.svg" alt="icon">
+        </div>
+      </div>
+      <button class="flex justify-center items-center border border-[#067A46] rounded-md px-7 py-2 font-semibold">
+        <span class="text-[#067A46]">View our menus</span>
+      </button>
+    </div>
+    <div class="container flex flex-col justify-center items-center mb-10 gap-8 px-4 py-5">
+      <h3 class="text-3xl">Cook it. Love it. Tag it #HelloFreshPics</h3>
+      <span>Follow us on Instagram @hellofresh</span>
+      <div class="grid grid-cols-4 max-w-6xl gap-7">
+        <div class="flex flex-col justify-start items-center gap-7">
+          <img src="img/hello-fresh/InstagramPeople.png" alt="img">
+          <div class="flex flex-col justify-start items-center gap-3">
+            <span class="font-bold">bdanielle1285</span>
+            <span class="max-w-[190px] text-center">My little chef helping me make dinner tonight and trying out some of
+              his new
+              kitchen utensils I got him!</span>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start items-center gap-7">
+          <img src="img/hello-fresh/dog.png" alt="img">
+          <div class="flex flex-col justify-start items-center gap-3">
+            <span class="font-bold">lilpepthekelpie</span>
+            <span class="max-w-[190px] text-center">I’m helping out 🧑🏽‍🍳 #masterchef #bestboy</span>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start items-center gap-7">
+          <img src="img/hello-fresh/IgramFamilyDinner.png" alt="img">
+          <div class="flex flex-col justify-start items-center gap-3">
+            <span class="font-bold">mandi14eid</span>
+            <span class="max-w-[190px] text-center">Drew and the kids made mom dinner tonight! Drew and I had our doubts
+              but WOW was
+              it tasty!</span>
+          </div>
+        </div>
+        <div class="flex flex-col justify-start items-center gap-7">
+          <img src="img/hello-fresh/kidscookingedited.png" alt="img">
+          <div class="flex flex-col justify-start items-center gap-3">
+            <span class="font-bold">our_lovely_stride</span>
+            <span class="max-w-[190px] text-center">We had a cooking class yesterday and we had such an amazing time. 😁
+              They had
+              such a great time working as a team and I can’t wait for our weekly cooking class 🙌🏻😁</span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-[url(img/hello-fresh/plans.png)] bg-cover w-full">
+      <div class="container mt-12 flex flex-col justify-center items-center mb-10 gap-2 px-4 py-5 mx-auto">
+        <div class="flex flex-col justify-center items-center gap-9 py-10">
+          <span class="font-bold text-4xl">Flexible Plans</span>
+          <span class="text-xl">to meet your household's needs</span>
+          <button class="flex justify-center items-center bg-[#067A46] text-white px-6 py-3 rounded-md">
+            <span>View our plans</span>
+          </button>
+        </div>
+      </div>
+    </div>
+    <div class="container flex flex-col justify-center items-center mb-10 gap-10 px-4 py-5 mx-auto">
+      <h3 class="text-4xl">More questions?</h3>
+      <ul class="flex flex-col items-start justify-start gap-4 max-w-[960px] w-full">
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          How does HelloFresh’s meal kit delivery service work?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          Which food meal plans & recipes does HelloFresh offer?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          How many times a week does HelloFresh deliver?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          Does HelloFresh give nutrition & calorie information?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          How do I recycle my HelloFresh box?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          Why should I choose HelloFresh as my meal kit service?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          How much does HelloFresh cost?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          Does HelloFresh support a healthy lifestyle?</li>
+        <li
+          class="flex flex-row justify-start items-center gap-5 font-semibold before:bg-[url(img/hello-fresh/arrow-down.svg)] before:w-10 before:h-10 before:bg-center before:bg-no-repeat before:shrink-0 before:border before:border-black before:rounded-full">
+          Can I skip a week of delivery?</li>
+      </ul>
+    </div>
+    <footer class=" w-full">
+      <div class="border-y border-[#E4E4E4]">
+        <div class="container flex flex-col justify-stretch items-center mb-10 gap-10 px-4 py-5 mx-auto max-w-6xl">
+          <div class="flex flex-row justify-between items-start w-full">
+            <div class="flex flex-col justify-start items-start gap-3">
+              <span class="font-semibold">HelloFresh</span>
+              <div class="flex flex-col justify-start items-start gap-1">
+                <a href="#" class="text-[#067A46] text-sm">Students</a>
+                <a href="#" class="text-[#067A46] text-sm">Blog</a>
+                <a href="#" class="text-[#067A46] text-sm">Recipes</a>
+                <a href="#" class="text-[#067A46] text-sm">Hero Discounts</a>
+                <a href="#" class="text-[#067A46] text-sm">Recipe Directory</a>
+                <a href="#" class="text-[#067A46] text-sm">California Supply Chains Act</a>
+                <a href="#" class="text-[#067A46] text-sm">Delivery Options</a>
+              </div>
+            </div>
+            <div class="flex flex-col justify-start items-start gap-3">
+              <span class="font-semibold">Our company</span>
+              <div class="flex flex-col justify-start items-start gap-1">
+                <a href="#" class="text-[#067A46] text-sm">HelloFresh Group</a>
+                <a href="#" class="text-[#067A46] text-sm">Sustainability</a>
+                <a href="#" class="text-[#067A46] text-sm">Careers</a>
+                <a href="#" class="text-[#067A46] text-sm">Press</a>
+              </div>
+            </div>
+            <div class="flex flex-col justify-start items-start gap-3">
+              <span class="font-semibold">Work with us</span>
+              <div class="flex flex-col justify-start items-start gap-1">
+                <a href="#" class="text-[#067A46] text-sm">Partner</a>
+                <a href="#" class="text-[#067A46] text-sm">Influencers</a>
+                <a href="#" class="text-[#067A46] text-sm">Affiliates</a>
+              </div>
+            </div>
+            <div class="flex flex-col justify-start items-start gap-3">
+              <span class="font-semibold">Contact us</span>
+              <div class="flex flex-col justify-start items-start gap-1">
+                <a href="#" class="text-[#067A46] text-sm">Help Center & FAQ</a>
+                <a href="#" class="text-[#067A46] text-sm">Partnership Inquiries</a>
+                <a href="#" class="text-[#067A46] text-sm">Corporate Sales</a>
+                <a href="#" class="text-[#067A46] text-sm flex flex-col justify-start items-start gap-0.5">Do Not Sell
+                  My Personal <span>Information</span></a>
+              </div>
+            </div>
+            <div class="flex flex-col justify-start items-start gap-3">
+              <a href="#" class="font-semibold text-[#067A46]">Download our app</a>
+              <div class="flex flex-col justify-start items-start gap-1">
+                <span class="text-sm">Manage your deliveries from anywhere, anytime.</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class=" py-7">
+        <div class="container flex flex-row justify-between items-center max-w-6xl mx-auto">
+          <span class="mr-16">© HelloFresh 2022</span>
+          <div class="flex flex-row justify-start items-start text-[#067A46] text-sm mr-auto gap-6">
+            <a href="#">Terms and Conditions</a>
+            <a href="#">Privacy</a>
+            <a href="#">Accessibility</a>
+          </div>
+          <div class="flex flex-row justify-start items-center gap-5">
+            <img src="img/hello-fresh/facebook.svg" alt="icon">
+            <img src="img/hello-fresh/tweeter.svg" alt="icon">
+            <img src="img/hello-fresh/instagramm.svg" alt="icon">
+          </div>
+        </div>
+      </div>
+    </footer>
+  </div>
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    let swiper = new Swiper(".HF_Swiper", {
+      loop: true,
+      slidesPerView: 4,
+      spaceBetween: 12,
+      centeredSlides: false,
+      navigation: {
+        nextEl: ".swiper-button-next",
+        prevEl: ".swiper-button-prev",
+      },
+    });
+  </script>
 </body>
+
 </html>
